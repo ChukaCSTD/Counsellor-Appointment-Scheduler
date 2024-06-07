@@ -60,7 +60,7 @@ body {
 
 .bodied{
 
-    height: 1000px;
+    height: 1200px;
     width: 100%;
     position: relative;
 }
@@ -167,4 +167,62 @@ form button:hover {
 
 .invalid {
     border-bottom: 1px solid red;
+}
+
+
+/* footer added */
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer_left a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.footer .footer_left b {
+    font-size: 15px;
+    color: white;
+    font-weight: light;
+
+}
+
+.footer .footer_policy .footer_right a {
+    text-decoration: none;
+    color: #c5c5c5;
+}
+
+.footer_policy {
+    line-height: 14px;
+    text-align: right;
+    color: cornflowerblue;
+}
+
+.footer b {
+    color: #6b6b6b;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1px;
+    text-align: right;
+}
+
+.footer_icons img {
+    vertical-align: middle;
+}
+
+.footer_right {
+    align-items: center;
+}
+
+.footer_right b {
+    font-size: 15px;
+    color: white
 }
