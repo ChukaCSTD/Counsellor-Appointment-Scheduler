@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("images/matte.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 0px 250px;
+    width: 100%;
+    /* margin: auto; */
+    background: white;
+    height: 60px;
+}
+
+.slate{
+    width: 500px;
+    color: white;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+.navbar a {
+    color: cornflowerblue;
+    text-decoration: none;
+    width: auto;
+    /* margin: 0 15px; */
+}
+
+.navbar a:hover {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    width: 160px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.bodied{
+
+    height: 1000px;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    /* scale: .9; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 60%;
+    /* height: 700px; */
+    margin: auto;
+    padding: 20px;
+    background-color: #fffffff3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.left{
+    position: relative;
+
+}
+
+.right{
+    padding-top: 30px;
+    margin: auto;
+    width: 100%;
+}
+
+.logo{
+    padding-left: 30px;
+    height: 200px;
+}
+
+.bkg{
+    position: relative;
+    top: 90px;
+    height: 300px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+#appointmentForm{
+    width: 100%;
+    margin-left: 70px;
+}
+
+form label {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    color: cornflowerblue;
+}
+
+
+form input, form select, form textarea, form button {
+    width: 70%;
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px ;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: gray;
+    /* line-height: 2; */
+}
+
+form input, form select{
+    margin-bottom: 10px;
+}
+
+form textarea{
+    height: 80px;
+}
+
+form button {
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    margin-left: 260px;
+}
+
+form button:hover {
+    background-color: rgb(70, 114, 197);
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+
+.invalid {
+    border-bottom: 1px solid red;
+}
