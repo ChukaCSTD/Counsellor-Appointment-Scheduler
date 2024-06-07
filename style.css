@@ -207,9 +207,7 @@ footer {
 }
 
 .footer b {
-    color: #6b6b6b;
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 100;
     line-height: 1px;
     text-align: right;
 }
